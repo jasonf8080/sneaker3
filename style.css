@@ -776,6 +776,10 @@ footer, .copyright{
       margin-top: 30px;
     }
 
+    .new-arrivals-grid{
+      grid-template-columns: 1fr;
+    }
+
     .brands-section{
       padding-top: 0px !important;
       padding-bottom: 0px !important;
