@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Loader Container-->
+    <div class="loader">
+        <span>Loading...</span>
+    </div>
+    
+     <!--Navigation-->
+     <div class="nav">
+        <div class="logo-links-container">
+            <div class="logo"><img src="./img/logo1.png" alt=""></div>
+            <div class="menu-links">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Shop</li>
+                <li>Brands</li>
+                <li>Locations</li>
+                </ul>
+            </div>
+        </div>
+      
+
+      <div class="icon-container">
+        <div class="search-icon"><i class="fa fa-search"></i></div>
+        <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-icon"><i class="fa fa-bars"></i></div>
+      </div>
+
+      <div class="border-bottom"></div>
+    </div>
+
+
+    <!--Cart-->
+    <div class="cart-cover"></div>
+    <div class="cart">
+        <div class="cart-header">
+            <p class="cart-title">Shopping Cart</p>
+            <button class="cart-exit-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items-container">
+            <!--cart items-->
+        </div>
+
+        <div class="cart-total">
+            <p class="total">Total:<span class="total-amount">$248</span></p>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+
+     
+    <!--Header-->
+    <section class="products-header">
+       <p class="page-info">Home <i class="fas fa-chevron-right"></i> Products</p>
+    </section>
+
+    <section class="filters-section">
+        <div class="filters-grid">
+            <div class="all-filters">
+                <div class="filter-item">
+                    <h4>Search</h4>
+                    <input type="text" class="search-filter" placeholder="Search">
+                </div>
+                
+
+                <div class="filter-item">
+                    <h4>Brands</h4>
+                    <div class="brands-list"></div>
+                </div>
+               
+
+                <div class="filter-item">
+                    <h4>Sort By</h4>
+                    <div class="sort-list">
+                        <p id="low-high" class="sort-item">Price: Lowest to Highest</p>
+                        <p id="high-low" class="sort-item">Price: Highest to Lowest</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-products-container">
+                <p class="results-heading">Showing all results for <span>"Nike"</span></p>
+                <div class="filters-products-grid">
+                    <div class="section-cover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <ul class="footer-list">
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Shipping & Returns</li>
+            <li>Size Guide</li>
+        </ul>
+
+        <div class="subscribe-container">
+            <p>Subscribe to our newsletter</p>
+            <div class="subscribe-input-container">
+                <input type="text" placeholder="Email">
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    <div class="copyright-container">
+        <div class="socials-list">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+        <p>Copyright © 2022, KICKS CULTURE, New York.</p>
+
+    </div>
+</div>
+
+    <script type="module" src="products.js"></script>
+</body>
+</html>

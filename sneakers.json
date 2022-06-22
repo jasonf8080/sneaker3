@@ -1,0 +1,255 @@
+[
+    {
+       "newArrivals": true,
+        "image": "./images/sneaker1.png",
+        "brand": "nike",
+        "title": "Nike Air Force 1",
+        "price": 120,
+        "id": "1"
+    },
+
+    {
+        "image": "./images/sneaker2.png",
+        "brand": "jordan",
+        "title": "Jordan 1 Bred",
+        "price": 490,
+        "id": "2"
+    },
+
+    {
+        "image": "./images/sneaker3.png",
+        "brand": "nike",
+        "title": "Air Max 97 Off White",
+        "price": 370,
+        "id": "3"
+    },
+
+
+    {
+       "newArrivals": true,
+        "image": "./images/sneaker4.png",
+        "brand": "yeezy",
+        "title": "Yeezy 350 Zebra",
+        "price": 350,
+        "id": "4"
+    },
+
+    {
+        "image": "./images/sneaker5.png",
+        "brand": "adidas",
+        "title": "Adidas Pharrell NMD",
+        "price": 280,
+        "id": "5"
+    },
+
+    {
+        "image": "./images/sneaker6.png",
+        "brand": "jordan",
+        "title": "Off White Jordan 1",
+        "price": 540,
+        "id": "6"
+    },
+
+
+    {
+       "newArrivals": true,
+        "image": "./images/sneaker13.png",
+        "brand": "jordan",
+        "title": "Off White Jordan 1",
+        "price": 600,
+        "id": "7"
+    },
+
+    {
+        "image": "./images/sneaker14.png",
+        "brand": "yeezy",
+        "title": "Yeezy 700 Inertia",
+        "price": 590,
+        "id": "8"
+    },
+
+    {
+       "newArrivals": true,
+        "image": "./images/sneaker15.png",
+        "brand": "yeezy",
+        "title": "Yeezy 350 Core Red",
+        "price": 400,
+        "id": "9"
+    },
+
+    {
+        "image": "./images/sneaker8.png",
+        "brand": "nike",
+        "title": "Nike White Vapormax",
+        "price": 190,
+        "id": "10"
+    },
+
+    {
+        "image": "./images/sneaker7.png",
+        "brand": "yeezy",
+        "title": "Yeezy 700 Mauve",
+        "price": 460,
+        "id": "11"
+    },
+
+   
+
+    {
+       "newArrivals": true,
+        "image": "./images/sneaker9.png",
+        "brand": "jordan",
+        "title": "Jordan 4 University Blue",
+        "price": 350,
+        "id": "12"
+    },
+
+    {
+        "image": "./images/sneaker10.png",
+        "brand": "yeezy",
+        "title": "Yeezy 700 Waverunner",
+        "price": 500,
+        "id": "13"
+    },
+
+    {
+        "image": "./images/sneaker11.png",
+        "brand": "nike",
+        "title": "Sean Wotherspoon 97",
+        "price": 470,
+        "id": "14"
+    },
+
+    {
+        "newArrivals": true,
+        "image": "./images/sneaker12.png",
+        "brand": "adidas",
+        "title": "Adidas NMD R1",
+        "price": 220,
+        "id": "15"
+    },
+
+
+    {
+        "image": "./images/sneaker16.png",
+        "brand": "vans",
+        "title": "Vans Old Skool",
+        "price": 90,
+        "id": "16"
+    },
+
+    {
+        "image": "./images/sneaker17.png",
+        "brand": "jordan",
+        "title": "Jordan 1 Pollen",
+        "price": 330,
+        "id": "17"
+    },
+
+    {
+        "newArrivals": true,
+        "image": "./images/sneaker18.png",
+        "brand": "nike",
+        "title": "Air Max 97 White",
+        "price": 140,
+        "id": "18"
+    },
+
+    {
+        "image": "./images/sneaker19.png",
+        "brand": "vans",
+        "title": "Fear of God Vans",
+        "price": 390,
+        "id": "19"
+    },
+
+    {
+        "newArrivals": true,
+        "image": "./images/sneaker20.png",
+        "brand": "nike",
+        "title": "Off White Air Force 1",
+        "price": 440,
+        "id": "20"
+    },
+
+    {
+        "image": "./images/sneaker21.png",
+        "brand": "yeezy",
+        "title": "Yeezy 350 Beluga",
+        "price": 380,
+        "id": "21"
+    },
+
+    {
+        "image": "./images/sneaker22.png",
+        "brand": "adidas",
+        "title": "Adidas Stan Smith",
+        "price": 70,
+        "id": "22"
+    },
+
+    {
+        "image": "./images/sneaker23.png",
+        "brand": "jordan",
+        "title": "Jordan 5 Black Metallic",
+        "price": 360,
+        "id": "23"
+    },
+
+    {
+        "image": "./images/sneaker24.png",
+        "brand": "nike",
+        "title": "Nike Sacai Grey",
+        "price": 260,
+        "id": "24"
+    },
+
+    {
+        "image": "./images/sneaker25.png",
+        "brand": "adidas",
+        "title": "Adidas Pharrell NMD",
+        "price": 280,
+        "id": "25"
+    },
+
+    {
+        "image": "./images/sneaker26.png",
+        "brand": "yeezy",
+        "title": "Yeezy 500 Blush",
+        "price": 220,
+        "id": "26"
+    },
+
+    {
+        "image": "./images/sneaker27.png",
+        "brand": "yeezy",
+        "title": "Yeezy 350 Triple White",
+        "price": 260,
+        "id": "27"
+    },
+
+    {
+        "image": "./images/sneaker28.png",
+        "brand": "nike",
+        "title": "Nike Vapormax Black",
+        "price": 220,
+        "id": "28"
+    },
+
+    {
+        "image": "./images/sneaker29.png",
+        "brand": "yeezy",
+        "title": "Yeezy Beluga 2.0",
+        "price": 350,
+        "id": "29"
+    },
+
+    {
+        "image": "./images/sneaker30.png",
+        "brand": "adidas",
+        "title": "Adidas Ultraboost",
+        "price": 110,
+        "id": "30"
+    }
+
+]
