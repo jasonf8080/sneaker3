@@ -742,6 +742,11 @@ footer, .copyright{
       width: 40px;
     }
 
+    .cart{
+      min-width: 100vw;
+      max-width: 100vw;
+    }
+
 
     .header{
       padding: 30px;

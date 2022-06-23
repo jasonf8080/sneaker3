@@ -29,9 +29,11 @@ export const brandsFilter = (products) => {
 } 
 
 
+
+//Only runs when brand is selected on homepage
 export const setBrand = (products, brand) => {
     const brandProducts = products.filter((product) => product.brand === brand);
-   filterMessage(brandHeading, `Showing all results for ${brand}`)
+   filterMessage(brandHeading, `Showing all results for "${brand}"`)
     displayProducts(brandProducts, filterProducts);
 }
 
