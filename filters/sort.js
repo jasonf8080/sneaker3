@@ -14,6 +14,3 @@ export const highestToLowest = (products) => {
     return highToLow;
 } 
 
-export const sortByLetter = (products) => {
-    
-}

@@ -3,20 +3,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
+
+
   
   html, body {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: 'Montserrat';
     background: white;
-   
-
   }
 
   body{
     position: relative;
     text-transform: uppercase;
   }
+
+
 
 a{
   text-decoration: none;
@@ -30,7 +34,6 @@ a{
   img {
     width: 100%;
     height: auto;
-    /*z-index: -1;*/
   }
 
 
@@ -128,22 +131,24 @@ a{
   .cart{
     position: absolute;
     top: 0;
-    right: -100%;
+    right: 0;
     max-width: 40vw;
     min-width: 40vw;
     min-height: 100%;
-    overflow: scroll;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(250, 250, 250);
     color: rgb(0, 0, 0);
     z-index: 999;
-    transition: right 0.4s;
+    transform: translateX(100%);
+    transition: transform 0.4s;
+    transition-delay: 0.1s;
     padding: 30px;
+
   }
 
 
   .cart.active{
-    right: 0;
+    transform: translateX(0%);
   }
 
   .cart-header{
@@ -450,9 +455,10 @@ section{
 .view-products-btn{
    background: black;
   color: white;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 /*Brand Section*/ 
@@ -560,8 +566,8 @@ footer, .copyright{
 
 
 .copyright{
-  padding: 30px 0 !important;
-  border: 1px solid red;
+  padding: 40px 0 !important;
+  border-top: 1px solid rgb(30, 29, 29);
   margin-bottom: 0;
 }
 
@@ -736,11 +742,6 @@ footer, .copyright{
       width: 40px;
     }
 
-    .cart{
-
-      max-width: 80vw;
-      min-width: 80vw;
-    }
 
     .header{
       padding: 30px;
@@ -793,7 +794,7 @@ footer, .copyright{
       order: -1;
     }
 
-     .footer, .copyright{
+     .footer-container, .copyright-container{
        flex-direction: column;
        justify-content: center;
        align-items: center;
@@ -844,6 +845,10 @@ footer, .copyright{
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 30px;
+  }
+
+  .filters-section{
+    padding-top: 0px;
   }
 
   .filters-grid{
@@ -916,7 +921,9 @@ footer, .copyright{
       border: 3px solid red;
     }
 
-
+    .page-info{
+      font-size: 14px;
+    }
   
 
     .filters-grid{
@@ -985,6 +992,7 @@ footer, .copyright{
   column-gap: 10px;
   row-gap: 10px;
   max-width: 80%;
+  margin: 15px 0 25px;
 }
 
 .size{
@@ -1016,7 +1024,6 @@ footer, .copyright{
 }
 
 .size-message{
-  margin: 15px 0;
   visibility: hidden;
 }
 

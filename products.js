@@ -6,7 +6,8 @@ import { hideLoader } from './loader.js';
 import { displayProducts } from './displayProducts.js';
 import { brandsFilter, setBrand } from './filters/brandsFilter.js';
 import { searchFilter } from './filters/searchFilter.js';
-import { highestToLowest, lowestToHighest, sortByLetter } from './filters/sort.js';
+import { highestToLowest, lowestToHighest } from './filters/sort.js';
+import { filterMessage } from './filters/filterMessage.js';
 
 const loader = document.querySelector('.loader');
 const filterProducts = document.querySelector('.filters-products-grid');
@@ -22,7 +23,7 @@ const init = async () => {
         setBrand(products, brand)
         localStorage.removeItem('brand')
     } else {
-        brandHeading.innerHTML = `Showing all results`;
+        filterMessage(brandHeading, 'Showing all results')
         displayProducts(products, filterProducts);
     }
 
@@ -40,13 +41,14 @@ const init = async () => {
     //Lowest to Highest
     lowHigh.addEventListener('click', () => {
         const lowToHigh = lowestToHighest(products);
+        filterMessage(brandHeading, 'Showing results from "Lowest to Highest Price"')
         displayProducts(lowToHigh, filterProducts);
     })
 
     //Highest to Lowest
     highLow.addEventListener('click', () => {
         const highToLow = highestToLowest(products);
-        console.log(highToLow)
+        filterMessage(brandHeading, 'Showing results from "Highest to Lowest Price"')
         displayProducts(highToLow, filterProducts);
     })
  

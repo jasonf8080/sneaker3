@@ -56,8 +56,14 @@ const addToCartBtn = document.querySelector('.add-to-cart-btn');
 addToCartBtn.addEventListener('click', () => {  
     if(newProduct){
         addToCart(newProduct);
+        console.log('adf')
     } else {
-       
+       const sizeMessage = document.querySelector('.size-message');
+       sizeMessage.style.visibility = 'visible';
+
+       setTimeout(() => {
+        sizeMessage.style.visibility = 'hidden';
+       }, 2500)
     }
 })
 

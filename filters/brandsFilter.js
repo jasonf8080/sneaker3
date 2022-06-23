@@ -1,4 +1,5 @@
 import { displayProducts } from "../displayProducts.js";
+import { filterMessage } from "./filterMessage.js";
 
 const brandsList = document.querySelector('.brands-list');
 const filterProducts = document.querySelector('.filters-products-grid');
@@ -16,11 +17,11 @@ export const brandsFilter = (products) => {
        if(e.target.classList.contains('brand')){
            const activeBrand = e.target.textContent;
            if(activeBrand === 'all'){
-            brandHeading.innerHTML = `Showing all results`;
+            filterMessage(brandHeading, `Showing all results`);
             displayProducts(products, filterProducts)
            } else {
             const newProducts = products.filter((product) => product.brand === activeBrand);
-            brandResults(activeBrand)
+           filterMessage(brandHeading, `Showing all results for "${activeBrand}"`)
             displayProducts(newProducts, filterProducts)
         }
        }
@@ -30,10 +31,7 @@ export const brandsFilter = (products) => {
 
 export const setBrand = (products, brand) => {
     const brandProducts = products.filter((product) => product.brand === brand);
-    brandResults(brand);
+   filterMessage(brandHeading, `Showing all results for ${brand}`)
     displayProducts(brandProducts, filterProducts);
 }
 
-function brandResults(brand){
-    brandHeading.innerHTML = `Showing all results for <span>"${brand}"</span>`;
-}
