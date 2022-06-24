@@ -20,8 +20,6 @@
     text-transform: uppercase;
   }
 
-
-
 a{
   text-decoration: none;
   color: black;
@@ -37,7 +35,6 @@ a{
   }
 
 
-  
   .nav {
     /*position: fixed;
     top: 0;
@@ -229,7 +226,6 @@ a{
 
   .quantity-div{
     display: flex;
-   
     align-items: center;
 
   }
@@ -259,7 +255,7 @@ a{
   }
 
   .cart-total{
-    margin-top: 40px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -494,11 +490,12 @@ section{
 
 .brand-item-button{
   background: #dd2020;
-  padding: 0.4rem 1.4rem;
+  padding: 0.4rem 1rem;
   border: none;
   color: white;
   font-family: 'Montserrat';
   text-transform: uppercase;
+  font-size: 13px;
 }
 
 
@@ -703,6 +700,18 @@ footer, .copyright{
     } 
 
     .cart-item-title{
+      font-size: 12px;
+    }
+
+    .cart-item-size{
+      font-size: 12px;
+    }
+
+    .cart-item-price{
+      font-size: 14px;
+    }
+
+    .quantity-div > *{
       font-size: 12px;
     }
    
