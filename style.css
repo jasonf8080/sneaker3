@@ -700,21 +700,12 @@ footer, .copyright{
       min-width: 70vw;
     } 
 
-    .cart-item-title{
-      font-size: 12px;
-    }
-
-    .cart-item-size{
+    .cart-item-title, .cart-item-size, .quantity-div > *, .cart-item-pric{
       font-size: 12px;
     }
 
     .cart-item-price{
-      font-size: 14px;
-      bottom: 0px;
-    }
-
-    .quantity-div > *{
-      font-size: 12px;
+      bottom: 5px;
     }
    
 
