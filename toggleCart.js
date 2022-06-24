@@ -15,6 +15,7 @@ exitCartBtn.addEventListener('click', () => {
 
 
 export const activeCart = () => {
+   window.scrollTo(0,0);
    cartCover.classList.add('active');
    cart.classList.add('active');
 }
