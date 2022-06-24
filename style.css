@@ -710,6 +710,7 @@ footer, .copyright{
 
     .cart-item-price{
       font-size: 14px;
+      bottom: 0px;
     }
 
     .quantity-div > *{
